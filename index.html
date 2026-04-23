@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crossgrid Words Support</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6efe5;
+        --panel: rgba(255, 252, 247, 0.92);
+        --ink: #231c16;
+        --muted: #6c6359;
+        --line: #ded2c2;
+        --accent: #cc8a3f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, #fff7ed 0, #f6efe5 44%, #eee4d8 100%);
+        color: var(--ink);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 20px 56px;
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: 0 20px 48px rgba(78, 58, 34, 0.08);
+        padding: 28px 24px;
+        margin-bottom: 18px;
+      }
+      h1, h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        margin: 0 0 12px;
+        line-height: 1;
+      }
+      h1 { font-size: 48px; }
+      h2 { font-size: 26px; }
+      p, li {
+        line-height: 1.55;
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+        font-weight: 600;
+      }
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+      .eyebrow {
+        font-size: 12px;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 10px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="eyebrow">Support</div>
+        <h1>Crossgrid Words</h1>
+        <p>
+          Help for the iPhone and iPad word puzzle game Crossgrid Words.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Need Help?</h2>
+        <p>
+          If something is broken, confusing, or missing, please open an issue on GitHub and include
+          your device, iOS version, and a short description of what happened.
+        </p>
+        <p>
+          Game repo:
+          <a href="https://github.com/derekisensee/word-grid-game">github.com/derekisensee/word-grid-game</a>
+        </p>
+        <p>
+          Support and bug reports:
+          <a href="https://github.com/derekisensee/word-grid-game/issues">github.com/derekisensee/word-grid-game/issues</a>
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Common Questions</h2>
+        <ul>
+          <li>Daily boards are shared by date, so reinstalling the app does not change the daily puzzle for that day.</li>
+          <li>Progress is stored locally on your device. Deleting the app removes local progress and history.</li>
+          <li>The game is designed to work offline once installed.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>About The App</h2>
+        <p>
+          Crossgrid Words is a word puzzle game about building valid words through the letters already
+          on the board. The app includes campaign levels, a large simple level library, shared daily
+          boards, endless play, and seed-based runs.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
